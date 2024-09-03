@@ -1,0 +1,237 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-bar {
+    background-color: #001F3D; /* Custom background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Vertical padding */
+}
+
+.dropdown-menu.custom-dropdown {
+    background-color: #001F3D;
+}
+
+    .dropdown-menu.custom-dropdown .dropdown-item {
+        color: white;
+    }
+
+        .dropdown-menu.custom-dropdown .dropdown-item:hover,
+        .dropdown-menu.custom-dropdown .dropdown-item:focus {
+            background-color: #001F3D;
+            color: white;
+        }
+
+        .dropdown-menu2.custom-dropdown2 .dropdown-item2:hover,
+        .dropdown-menu2.custom-dropdown2 .dropdown-item2:focus {
+            background-color: white;
+            color: #001F3D;
+        }
+
+.fs-xsmall {
+    font-size: 0.75rem; /* Even smaller text size */
+}
+
+.fontColor {
+    color: #005683;
+}
+.fontColor2 {
+    color: #005683;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* CUSTOM BUTTON*/
+
+.btn-color {
+    background-color: #005683; /* Your custom color */
+    border: none; /* Optional: remove default border */
+}
+.btn-color2 {
+    background-color: white; /* Your custom color */
+    border: none; /* Optional: remove default border */
+    color: #005683;
+}
+
+    .btn-color:hover {
+        background-color: #004060; /* Darker shade for hover effect */
+    }
+    .btn-color2:hover {
+        background-color: #004060; /* Darker shade for hover effect */
+        color: white;
+    }
+
+.custom-btn-size {
+    width: 60px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure text doesn’t overflow */
+    text-align: center; /* Center text horizontally */
+}
+.custom-btn-size2 {
+    width: 300px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure text doesn’t overflow */
+    text-align: center; /* Center text horizontally */
+}
+
+.frame1-bar {
+    background-color: #005683; /* Custom background color */
+    color: white; /* Text color */
+}
+
+.mainText {
+    font-size: 36px;
+}
+
+@media (max-width: 992px) {
+    .mainText {
+        font-size: 28px; /* Adjust for medium screens */
+    }
+}
+
+.subText {
+    font-size: 24px;
+}
+
+@media (max-width: 992px) {
+    .subText {
+        font-size: 20px; /* Adjust for medium screens */
+    }
+}
+
+.lightText {
+    color: #97A4AF;
+    font-size: 12px;
+}
+.lightText2 {
+    color: #97A4AF;
+    font-size: 12px;
+    font-weight: 600;
+}
+.headText {
+    color: #1E2022;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/*STEPER*/
+.tracker-bar {
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Transition only the background-color */
+}
+
+.bar-1 {
+    background-color: #E7EAF3; /* Default color */
+}
+
+    .bar-1.active {
+        background-color: #005683; /* Color when active */
+    }
+
+.bar-3, .bar-4, .bar-2 {
+    background-color: #E7EAF3; /* Default color */
+}
+
+    .bar-3.active, .bar-4.active, .bar-2.active {
+        background-color: #005683; /* Color when active */
+    }
+
+
+
+
+/* SEARCH BUTTON */
+.input-group .form-control {
+    border: none;
+    background-color: #F9FAFF;
+    border-radius: 20px;
+}
+
+.input-group .input-group-text {
+    border: none;
+    background-color: #F9FAFF;
+    border-radius: 20px;
+}
+
+    .input-group .input-group-text i {
+        color: #005683; /* Optional: color for the search icon */
+
+
+    }
+.icon {
+    background-color: transparent; 
+    border: none; 
+    padding: 0;
+    cursor: pointer;
+}
+.icon2 {
+    color: #97A4AF;
+    font-size: 16px;
+}
+
+/* FORM TEXT FIELD*/
+.textFIELD {
+    width: 95%; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+}
+.form-control {
+    border: none;
+    background-color: #F9FAFF;
+    border-radius: 20px;
+}
+
+.item-row:nth-child(odd) {
+    background-color: #F5F7FA; /* Light grey for odd rows */
+}
+
+.item-row:nth-child(even) {
+    background-color: #FFFFFF; /* White for even rows */
+}
+
+.clear{
+    font-size: 12px;
+}
+
+.addItem {
+    color: #1E2022;
+    font-size: 16px;
+}
+.addIcon {
+    color: #005683;
+    font-size: 16px;
+}
+
+.hayt{
+    height: 200px;
+}
+.marjin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
